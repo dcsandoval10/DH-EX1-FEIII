@@ -69,7 +69,7 @@ const Form = () => {
 
 
       if (result === 0){
-        setalertMessage(`Gracias por informarnos que tu comida favorita es ${comida}`)
+        setalertMessage(`Gracias por informarnos que tu comida favorita es ${comida}, ${name}`)
       }else if (result ===1){
         setalertMessage(`El primer valor no puede tener espacios al inicio ni ser de menos de 3 letras`)
       }else if (result ===2){
