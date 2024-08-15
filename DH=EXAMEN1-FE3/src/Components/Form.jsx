@@ -3,18 +3,9 @@ import Card from './Card'
 
 
 const Form = () => {
-    
-    const [email, setEmail] = useState("");
-    const [flag, setFlag] = useState(false);
-    //Crear un estado para renderizar el mensaje de error
-
     const [name, setName] = useState("")
     const [comida, setComida] = useState("")
     const [alertMessage, setalertMessage] = useState("")
-
-  
-    const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-
 
     // Valida el input
     const validateInput = (dato1, dato2) => {
