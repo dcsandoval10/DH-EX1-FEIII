@@ -1,9 +1,10 @@
 
 
-const Card = () => {
+const Card = ({message}) => {
+    console.log(message)
   return (
     <div>
-      <p>Hola soy una tarjeta</p>
+      <p>{message}</p>
     </div>
   )
 }
